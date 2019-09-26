@@ -1,14 +1,19 @@
 {
-  "name": "oboe-bug-template",
+  "name": "oboe-typeerror-bug",
   "version": "1.0.0",
-  "description": "A template to reproduce Oboe.js server-side bugs",
+  "description": "Reproduces a TypeError bug in Oboe.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified - Please run $npm start\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "JuanCaicedo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jalbersdorfer/oboe-bug-template.git"
+  },
+  "author": "Juergen Albersdorfer",
   "license": "ISC",
   "dependencies": {
-    "oboe": "2.1.2"
+    "oboe": "^2.1.4"
   }
 }
