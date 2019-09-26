@@ -1,4 +1,4 @@
-# Template for Oboe.js server-side bugs
+# TypeError: Cannot read property '0' of undefined
 
 The goal of this repo is to recreate a TypeError bug in Oboe.js 2.1.4 and later
 which I found with the [Oboe.js](https://github.com/jimhigson/oboe.js) library.
